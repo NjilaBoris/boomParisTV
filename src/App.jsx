@@ -13,6 +13,7 @@ const App = () => {
   return (
     <ReactLenis>
       <Hero />
+      <div className="h-[200dvh]" />
     </ReactLenis>
   );
 };

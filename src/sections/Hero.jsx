@@ -28,7 +28,12 @@ const Hero = () => {
 
       onStart: () => {
         gsap.to("#progress-bar", {
-          width: "100vw",
+          width: "100%",
+          duration: 2,
+          ease: customEase,
+        });
+        gsap.to("#progress-bar", {
+          opacity: 0,
           duration: 2,
           ease: customEase,
         });
@@ -88,11 +93,11 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className=" z-[9997] relative flex flex-col justify-between bg-[#15161b] [clip-path:polygon(0%_45%,0%_45%,0%_55%,0%_55%)]  w-screen h-dvh will-change-[clip-path]"
+      className=" z-[9] overflow-clip relative flex flex-col justify-between bg-[#15161b] [clip-path:polygon(0%_45%,0%_45%,0%_55%,0%_55%)]  w-screen h-dvh will-change-[clip-path]"
     >
       <div
         id="progress-bar "
-        className="top-1/2 left-0 z-[9998] absolute flex justify-between items-center p-[2em] w-[25vw] text-[#ffbb00] -translate-y-1/2"
+        className="top-1/2 left-0 z-20 absolute flex justify-between items-center p-[2em] w-[25vw] text-[#ffbb00] -translate-y-1/2"
       >
         <p className="paragraph">loading</p>
         <p className="paragraph">
@@ -108,7 +113,7 @@ const Hero = () => {
           autoPlay
           muted
           playsInline
-          className="top-1/2 left-1/2 absolute opacity-[0.85] w-auto min-w-full h-auto min-h-full object-cover -translate-x-1/2 -translate-y-1/2"
+          className="top-1/2  left-1/2 absolute opacity-[0.85] w-auto min-w-full h-auto min-h-full object-cover -translate-x-1/2 -translate-y-1/2"
         >
           <source src="/Home.mp4" type="video/mp4" />
         </video>

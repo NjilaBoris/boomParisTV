@@ -3,19 +3,19 @@ export default function Header() {
     <>
       <div
         id="header"
-        className="top-1/2 left-1/2 absolute flex flex-col justify-center items-center w-full -translate-x-1/2 -translate-y-1/2"
+        className="top-1/2 left-1/2 font-bold text-[#d3d8e1]  absolute flex flex-col justify-center items-center w-full -translate-x-1/2 -translate-y-1/2"
       >
-        <h1 className="[clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_100%)] w-full [font-family:Saans-Trial-Heavy] text-[7vw] text-white text-center uppercase leading-[0.85] -tracking-[0.075rem]">
+        <h1 className="[clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_100%)] w-full  text-[7.5vw]  text-center uppercase leading-[0.85] -tracking-[0.075rem]">
           <span className="block relative translate-y-[120%] will-change-transform">
             Full Production
           </span>
         </h1>
-        <h1 className="[clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_100%)] [font-family:Saans-Trial-Heavy] text-[7vw] text-white text-center uppercase leading-[0.85] -tracking-[0.075rem]">
+        <h1 className="[clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_100%)] text-[7.5vw]  text-center uppercase leading-[0.85] -tracking-[0.075rem]">
           <span className="block relative translate-y-[120%] will-change-transform">
             Services studio
           </span>
         </h1>
-        <h1 className="[clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_100%)] [font-family:Saans-Trial-Heavy] text-[7vw] text-white text-center uppercase leading-[0.85] -tracking-[0.075rem]">
+        <h1 className="[clip-path:polygon(0%_0%,100%_0%,100%_100%,0%_100%)]  text-[7.5vw]  text-center uppercase leading-[0.85] -tracking-[0.075rem]">
           <span className="block relative translate-y-[120%] will-change-transform">
             based in paris
           </span>
